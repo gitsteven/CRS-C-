@@ -1,0 +1,1111 @@
+20160816223441	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816223441	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816223441	[CRS]    Saving new account to database (player id: 236240048160)
+20160816223443	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048160, )
+20160816223447	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223452	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223454	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048160, )
+20160816223456	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223456	[CRS]    Processing message AskForTvContentMessage (236240048160, )
+20160816223456	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048160, )
+20160816223456	[CRS]    Processing message ExecuteCommandsMessage (236240048160, )
+20160816223456	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048160, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816223521	[CRS]    Processing message ClientCapabilitiesMessage (236240048160, )
+20160816223521	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223521	[CRS]    Processing message ClientCapabilitiesMessage (236240048160, )
+20160816223526	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223526	[CRS]    Processing message ClientCapabilitiesMessage (236240048160, )
+20160816223531	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223531	[CRS]    Processing message ExecuteCommandsMessage (236240048160, )
+20160816223531	[CRS]    Processing message ClientCapabilitiesMessage (236240048160, )
+20160816223536	[CRS]    Processing message KeepAliveMessage (236240048160, )
+20160816223536	[CRS]    Processing message ClientCapabilitiesMessage (236240048160, )
+20160816223539	[CRS]    Processing message ChangeAvatarNameMessage (236240048160, )
+20160816223539	[CRS]    Processing message ExecuteCommandsMessage (236240048160, 中中午啦咯了)
+20160816223616	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816223616	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816223616	[CRS]    Saving new account to database (player id: 236240048161)
+20160816223616	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048161, )
+20160816223617	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048161, )
+20160816223617	[CRS]    Processing message KeepAliveMessage (236240048161, )
+20160816223617	[CRS]    Processing message AskForTvContentMessage (236240048161, )
+20160816223617	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048161, )
+20160816223617	[CRS]    Processing message ExecuteCommandsMessage (236240048161, )
+20160816223617	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048161, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816223617	[CRS]    Processing message ClientCapabilitiesMessage (236240048161, )
+20160816223622	[CRS]    Processing message KeepAliveMessage (236240048161, )
+20160816223622	[CRS]    Processing message ClientCapabilitiesMessage (236240048161, )
+20160816223624	[CRS]    Processing message ChangeAvatarNameMessage (236240048161, )
+20160816223624	[CRS]    Processing message ExecuteCommandsMessage (236240048161, 45669996)
+20160816223627	[CRS]    Processing message KeepAliveMessage (236240048161, 45669996)
+20160816223627	[CRS]    Processing message ClientCapabilitiesMessage (236240048161, 45669996)
+20160816223627	[CRS]    Processing message ExecuteCommandsMessage (236240048161, 45669996)
+20160816223627	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048161, 45669996)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816223632	[CRS]    Processing message KeepAliveMessage (236240048161, 45669996)
+20160816223632	[CRS]    Processing message ClientCapabilitiesMessage (236240048161, 45669996)
+20160816223635	[CRS]    Processing message ExecuteCommandsMessage (236240048161, 45669996)
+20160816223635	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048161, 45669996)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816223635	[CRS]    Processing message ExecuteCommandsMessage (236240048161, 45669996)
+20160816223637	[CRS]    Processing message KeepAliveMessage (236240048161, 45669996)
+20160816223637	[CRS]    Processing message ClientCapabilitiesMessage (236240048161, 45669996)
+20160816223637	[CRS]    Processing message ExecuteCommandsMessage (236240048161, 45669996)
+20160816223637	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048161, 45669996)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816223642	[CRS]    Processing message KeepAliveMessage (236240048161, 45669996)
+20160816223642	[CRS]    Processing message ClientCapabilitiesMessage (236240048161, 45669996)
+20160816225217	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816225217	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816225217	[CRS]    Saving new account to database (player id: 236240048162)
+20160816225218	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048162, )
+20160816225219	[CRS]    Processing message KeepAliveMessage (236240048162, )
+20160816225219	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048162, )
+20160816225219	[CRS]    Processing message KeepAliveMessage (236240048162, )
+20160816225219	[CRS]    Processing message AskForTvContentMessage (236240048162, )
+20160816225219	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048162, )
+20160816225219	[CRS]    Processing message ExecuteCommandsMessage (236240048162, )
+20160816225219	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225219	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, )
+20160816225223	[CRS]    Processing message ChangeAvatarNameMessage (236240048162, )
+20160816225223	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225224	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225224	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225226	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225226	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225226	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225229	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225229	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225229	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225229	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225232	[CRS]    Processing message AskForCancelAttackMessage (236240048162, jjjjjjj)
+20160816225234	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225234	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225239	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225239	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225240	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225240	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225244	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225244	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225249	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225249	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225249	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225249	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225254	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225254	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225259	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225259	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225259	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225259	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225305	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225305	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225309	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225309	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225309	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225309	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225314	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225314	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225319	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225319	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225319	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225319	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225324	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225324	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225329	[CRS]    Processing message KeepAliveMessage (236240048162, jjjjjjj)
+20160816225329	[CRS]    Processing message ClientCapabilitiesMessage (236240048162, jjjjjjj)
+20160816225329	[CRS]    Processing message ExecuteCommandsMessage (236240048162, jjjjjjj)
+20160816225329	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048162, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 24
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225641	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816225642	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816225642	[CRS]    Saving new account to database (player id: 236240048163)
+20160816225643	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048163, )
+20160816225643	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048163, )
+20160816225643	[CRS]    Processing message KeepAliveMessage (236240048163, )
+20160816225643	[CRS]    Processing message AskForTvContentMessage (236240048163, )
+20160816225643	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048163, )
+20160816225644	[CRS]    Processing message ExecuteCommandsMessage (236240048163, )
+20160816225644	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225644	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, )
+20160816225648	[CRS]    Processing message ChangeAvatarNameMessage (236240048163, )
+20160816225648	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225648	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225648	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225652	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225653	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225653	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225654	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225654	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225655	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225655	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225657	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225658	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225658	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225658	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225658	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225701	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225701	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225701	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225701	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225701	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225701	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225702	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225702	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225703	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225703	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225703	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225703	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225704	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225704	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225705	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225705	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225705	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225705	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225705	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225706	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225706	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225706	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225708	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225708	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225708	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225708	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225709	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225709	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225710	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225710	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225710	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225710	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225710	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225710	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225711	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225711	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225711	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225711	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225711	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225713	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225713	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225713	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225713	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225713	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225714	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225714	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225718	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225718	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225721	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225721	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225721	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225723	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225723	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225724	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225724	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225728	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225728	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225733	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225733	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225734	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225734	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225738	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225738	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225743	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225743	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225744	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225744	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225748	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225748	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225753	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225753	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225754	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225754	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225758	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225758	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225803	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225804	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225805	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225805	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225809	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225809	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225813	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225813	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225814	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225814	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225818	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225818	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225844	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225844	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225844	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225844	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048163, 兔兔图图)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225846	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225847	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225847	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225847	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225847	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225849	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225850	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225850	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225850	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225851	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225851	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225851	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225852	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225852	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225852	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225852	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225853	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225853	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225854	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225854	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225854	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225854	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225854	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225855	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225855	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225855	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225856	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225856	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225856	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225856	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225856	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225857	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225857	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225857	[CRS]    Processing message ClientCapabilitiesMessage (236240048163, 兔兔图图)
+20160816225857	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225901	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225901	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225901	[CRS]    Processing message ExecuteCommandsMessage (236240048163, 兔兔图图)
+20160816225902	[CRS]    Processing message KeepAliveMessage (236240048163, 兔兔图图)
+20160816225910	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816225910	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816225910	[CRS]    Saving new account to database (player id: 236240048164)
+20160816225910	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048164, )
+20160816225911	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048164, )
+20160816225912	[CRS]    Processing message KeepAliveMessage (236240048164, )
+20160816225912	[CRS]    Processing message AskForTvContentMessage (236240048164, )
+20160816225912	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048164, )
+20160816225912	[CRS]    Processing message ExecuteCommandsMessage (236240048164, )
+20160816225912	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048164, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225912	[CRS]    Processing message ClientCapabilitiesMessage (236240048164, )
+20160816225916	[CRS]    Processing message ChangeAvatarNameMessage (236240048164, )
+20160816225916	[CRS]    Processing message ExecuteCommandsMessage (236240048164, 了来咯噢耶)
+20160816225916	[CRS]    Processing message KeepAliveMessage (236240048164, 了来咯噢耶)
+20160816225916	[CRS]    Processing message ClientCapabilitiesMessage (236240048164, 了来咯噢耶)
+20160816225922	[CRS]    Processing message KeepAliveMessage (236240048164, 了来咯噢耶)
+20160816225922	[CRS]    Processing message ClientCapabilitiesMessage (236240048164, 了来咯噢耶)
+20160816225922	[CRS]    Processing message ExecuteCommandsMessage (236240048164, 了来咯噢耶)
+20160816225922	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048164, 了来咯噢耶)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225922	[CRS]    Processing message ExecuteCommandsMessage (236240048164, 了来咯噢耶)
+20160816225922	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048164, 了来咯噢耶)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816225922	[CRS]    Processing message StartMissionMessage (236240048164, 了来咯噢耶)
+20160816225922	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048164, 了来咯噢耶)
+20160816225927	[CRS]    Processing message KeepAliveMessage (236240048164, 了来咯噢耶)
+20160816225927	[CRS]    Processing message ClientCapabilitiesMessage (236240048164, 了来咯噢耶)
+20160816230918	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816230918	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816230918	[CRS]    Saving new account to database (player id: 236240048165)
+20160816230919	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048165, )
+20160816230920	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048165, )
+20160816230920	[CRS]    Processing message KeepAliveMessage (236240048165, )
+20160816230920	[CRS]    Processing message AskForTvContentMessage (236240048165, )
+20160816230920	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048165, )
+20160816230921	[CRS]    Processing message ExecuteCommandsMessage (236240048165, )
+20160816230921	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048165, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816230921	[CRS]    Processing message ClientCapabilitiesMessage (236240048165, )
+20160816230924	[CRS]    Processing message ChangeAvatarNameMessage (236240048165, )
+20160816230924	[CRS]    Processing message ExecuteCommandsMessage (236240048165, jjjjjjj)
+20160816230925	[CRS]    Processing message KeepAliveMessage (236240048165, jjjjjjj)
+20160816230925	[CRS]    Processing message ClientCapabilitiesMessage (236240048165, jjjjjjj)
+20160816230926	[CRS]    Processing message ExecuteCommandsMessage (236240048165, jjjjjjj)
+20160816230926	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048165, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816230926	[CRS]    Processing message ExecuteCommandsMessage (236240048165, jjjjjjj)
+20160816230930	[CRS]    Processing message KeepAliveMessage (236240048165, jjjjjjj)
+20160816230930	[CRS]    Processing message AskForCancelAttackMessage (236240048165, jjjjjjj)
+20160816230930	[CRS]    Processing message ClientCapabilitiesMessage (236240048165, jjjjjjj)
+20160816230931	[CRS]    Processing message ExecuteCommandsMessage (236240048165, jjjjjjj)
+20160816230931	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048165, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816230932	[CRS]    Processing message ExecuteCommandsMessage (236240048165, jjjjjjj)
+20160816230932	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048165, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816230932	[CRS]    Processing message StartMissionMessage (236240048165, jjjjjjj)
+20160816230932	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048165, jjjjjjj)
+20160816230935	[CRS]    Processing message KeepAliveMessage (236240048165, jjjjjjj)
+20160816230935	[CRS]    Processing message ClientCapabilitiesMessage (236240048165, jjjjjjj)
+20160816230937	[CRS]    Processing message SendBattleEventMessage (236240048165, jjjjjjj)
+20160816231123	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816231123	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816231123	[CRS]    Saving new account to database (player id: 236240048166)
+20160816231124	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048166, )
+20160816231125	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048166, )
+20160816231126	[CRS]    Processing message KeepAliveMessage (236240048166, )
+20160816231126	[CRS]    Processing message AskForTvContentMessage (236240048166, )
+20160816231126	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048166, )
+20160816231126	[CRS]    Processing message ExecuteCommandsMessage (236240048166, )
+20160816231126	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048166, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231126	[CRS]    Processing message ClientCapabilitiesMessage (236240048166, )
+20160816231129	[CRS]    Processing message ChangeAvatarNameMessage (236240048166, )
+20160816231129	[CRS]    Processing message ExecuteCommandsMessage (236240048166, 哦哦OK了就咯)
+20160816231135	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816231135	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816231135	[CRS]    Saving new account to database (player id: 236240048167)
+20160816231136	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048167, )
+20160816231136	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048167, )
+20160816231137	[CRS]    Processing message KeepAliveMessage (236240048167, )
+20160816231137	[CRS]    Processing message AskForTvContentMessage (236240048167, )
+20160816231137	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048167, )
+20160816231137	[CRS]    Processing message ExecuteCommandsMessage (236240048167, )
+20160816231137	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048167, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231137	[CRS]    Processing message ClientCapabilitiesMessage (236240048167, )
+20160816231141	[CRS]    Processing message KeepAliveMessage (236240048167, )
+20160816231141	[CRS]    Processing message ClientCapabilitiesMessage (236240048167, )
+20160816231143	[CRS]    Processing message ChangeAvatarNameMessage (236240048167, )
+20160816231143	[CRS]    Processing message ExecuteCommandsMessage (236240048167, 啦咯啦咯啦咯来)
+20160816231149	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816231149	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816231149	[CRS]    Saving new account to database (player id: 236240048168)
+20160816231149	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048168, )
+20160816231150	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048168, )
+20160816231151	[CRS]    Processing message KeepAliveMessage (236240048168, )
+20160816231151	[CRS]    Processing message AskForTvContentMessage (236240048168, )
+20160816231151	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048168, )
+20160816231151	[CRS]    Processing message ExecuteCommandsMessage (236240048168, )
+20160816231151	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048168, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231151	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, )
+20160816231155	[CRS]    Processing message KeepAliveMessage (236240048168, )
+20160816231155	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, )
+20160816231200	[CRS]    Processing message KeepAliveMessage (236240048168, )
+20160816231200	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, )
+20160816231201	[CRS]    Processing message ExecuteCommandsMessage (236240048168, )
+20160816231206	[CRS]    Processing message KeepAliveMessage (236240048168, )
+20160816231206	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, )
+20160816231207	[CRS]    Processing message ChangeAvatarNameMessage (236240048168, )
+20160816231207	[CRS]    Processing message ExecuteCommandsMessage (236240048168, jjjjjjj)
+20160816231210	[CRS]    Processing message KeepAliveMessage (236240048168, jjjjjjj)
+20160816231210	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, jjjjjjj)
+20160816231211	[CRS]    Processing message ExecuteCommandsMessage (236240048168, jjjjjjj)
+20160816231211	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048168, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231211	[CRS]    Processing message ExecuteCommandsMessage (236240048168, jjjjjjj)
+20160816231211	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048168, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231211	[CRS]    Processing message StartMissionMessage (236240048168, jjjjjjj)
+20160816231211	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048168, jjjjjjj)
+20160816231215	[CRS]    Processing message KeepAliveMessage (236240048168, jjjjjjj)
+20160816231215	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, jjjjjjj)
+20160816231216	[CRS]    Processing message SectorCommandMessage (236240048168, jjjjjjj)
+20160816231220	[CRS]    Processing message KeepAliveMessage (236240048168, jjjjjjj)
+20160816231220	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, jjjjjjj)
+20160816231225	[CRS]    Processing message KeepAliveMessage (236240048168, jjjjjjj)
+20160816231226	[CRS]    Processing message ClientCapabilitiesMessage (236240048168, jjjjjjj)
+20160816231246	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816231253	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816231253	[CRS]    Saving new account to database (player id: 236240048169)
+20160816231253	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048169, )
+20160816231255	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048169, )
+20160816231255	[CRS]    Processing message KeepAliveMessage (236240048169, )
+20160816231255	[CRS]    Processing message AskForTvContentMessage (236240048169, )
+20160816231255	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048169, )
+20160816231255	[CRS]    Processing message ExecuteCommandsMessage (236240048169, )
+20160816231255	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048169, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231255	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, )
+20160816231259	[CRS]    Processing message KeepAliveMessage (236240048169, )
+20160816231259	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, )
+20160816231259	[CRS]    Processing message ChangeAvatarNameMessage (236240048169, )
+20160816231259	[CRS]    Processing message ExecuteCommandsMessage (236240048169, jjjjjjj)
+20160816231304	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231304	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, jjjjjjj)
+20160816231305	[CRS]    Processing message ExecuteCommandsMessage (236240048169, jjjjjjj)
+20160816231305	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048169, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231309	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231309	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, jjjjjjj)
+20160816231316	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231316	[CRS]    Processing message ExecuteCommandsMessage (236240048169, jjjjjjj)
+20160816231316	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048169, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231316	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, jjjjjjj)
+20160816231319	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231319	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, jjjjjjj)
+20160816231323	[CRS]    Processing message ExecuteCommandsMessage (236240048169, jjjjjjj)
+20160816231323	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048169, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231323	[CRS]    Processing message StartMissionMessage (236240048169, jjjjjjj)
+20160816231323	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048169, jjjjjjj)
+20160816231324	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231328	[CRS]    Processing message SectorCommandMessage (236240048169, jjjjjjj)
+20160816231329	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231329	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, jjjjjjj)
+20160816231334	[CRS]    Processing message KeepAliveMessage (236240048169, jjjjjjj)
+20160816231334	[CRS]    Processing message ClientCapabilitiesMessage (236240048169, jjjjjjj)
+20160816231354	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816231355	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816231355	[CRS]    Saving new account to database (player id: 236240048170)
+20160816231355	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048170, )
+20160816231356	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048170, )
+20160816231356	[CRS]    Processing message KeepAliveMessage (236240048170, )
+20160816231356	[CRS]    Processing message AskForTvContentMessage (236240048170, )
+20160816231356	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048170, )
+20160816231356	[CRS]    Processing message ExecuteCommandsMessage (236240048170, )
+20160816231356	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048170, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231356	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, )
+20160816231400	[CRS]    Processing message ChangeAvatarNameMessage (236240048170, )
+20160816231400	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231400	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231401	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231406	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231406	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231406	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231406	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048170, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231411	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231411	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231416	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231416	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231416	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231416	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231416	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048170, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231419	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231421	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231421	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231423	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231426	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231426	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231426	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231426	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048170, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231427	[CRS]    Processing message ExecuteCommandsMessage (236240048170, jjjjjjj)
+20160816231427	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048170, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231427	[CRS]    Processing message StartMissionMessage (236240048170, jjjjjjj)
+20160816231427	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048170, jjjjjjj)
+20160816231431	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231431	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231433	[CRS]    Processing message SectorCommandMessage (236240048170, jjjjjjj)
+20160816231436	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231436	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231438	[CRS]    Processing message SendBattleEventMessage (236240048170, jjjjjjj)
+20160816231441	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231441	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231446	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231446	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231450	[CRS]    Processing message SendBattleEventMessage (236240048170, jjjjjjj)
+20160816231451	[CRS]    Processing message KeepAliveMessage (236240048170, jjjjjjj)
+20160816231451	[CRS]    Processing message ClientCapabilitiesMessage (236240048170, jjjjjjj)
+20160816231542	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816231542	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816231542	[CRS]    Saving new account to database (player id: 236240048171)
+20160816231542	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048171, )
+20160816231543	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048171, )
+20160816231543	[CRS]    Processing message KeepAliveMessage (236240048171, )
+20160816231543	[CRS]    Processing message AskForTvContentMessage (236240048171, )
+20160816231543	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048171, )
+20160816231544	[CRS]    Processing message ExecuteCommandsMessage (236240048171, )
+20160816231544	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048171, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816231544	[CRS]    Processing message ClientCapabilitiesMessage (236240048171, )
+20160816231547	[CRS]    Processing message ChangeAvatarNameMessage (236240048171, )
+20160816231547	[CRS]    Processing message ExecuteCommandsMessage (236240048171, jjjjjjj)
+20160816231548	[CRS]    Processing message KeepAliveMessage (236240048171, jjjjjjj)
+20160816231548	[CRS]    Processing message ClientCapabilitiesMessage (236240048171, jjjjjjj)
+20160816231553	[CRS]    Processing message KeepAliveMessage (236240048171, jjjjjjj)
+20160816232933	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816232933	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816232940	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816232940	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816232943	[CRS]    Processing message KeepAliveMessage(0, NoNameYet)
+20160816232946	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816232946	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816233044	[CRS]    Processing message SessionRequest(0, NoNameYet)
+20160816233044	[CRS]    Processing message LoginMessage(0, NoNameYet)
+20160816233044	[CRS]    Saving new account to database (player id: 236240048172)
+20160816233044	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048172, )
+20160816233050	[CRS]    Processing message KeepAliveMessage (236240048172, )
+20160816233052	[CRS]    Processing message AskForAvatarStreamEntryMessage (236240048172, )
+20160816233053	[CRS]    Processing message KeepAliveMessage (236240048172, )
+20160816233053	[CRS]    Processing message AskForTvContentMessage (236240048172, )
+20160816233053	[CRS]    Processing message AskForBattleReplayStreamMessage (236240048172, )
+20160816233053	[CRS]    Processing message ExecuteCommandsMessage (236240048172, )
+20160816233053	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048172, )System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816233056	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, )
+20160816233057	[CRS]    Processing message KeepAliveMessage (236240048172, )
+20160816233057	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, )
+20160816233059	[CRS]    Processing message ChangeAvatarNameMessage (236240048172, )
+20160816233059	[CRS]    Processing message ExecuteCommandsMessage (236240048172, jjjjjjj)
+20160816233102	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233102	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233106	[CRS]    Processing message ExecuteCommandsMessage (236240048172, jjjjjjj)
+20160816233106	[CRS]    An exception occured during processing of message ExecuteCommandsMessage (236240048172, jjjjjjj)System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+System.ArgumentException: 目标数组的长度不足，无法复制集合中的所有项。请检查数组索引和长度。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.BitConverter.ToUInt32(Byte[] value, Int32 startIndex)
+   在 UCS.Helpers.Helpers.ReadUInt32WithEndian(BinaryReader br) 位置 J:\coc private server\ucr\ucr\working code\UCS.Helpers\Helpers.cs:行号 116
+   在 UCS.PacketProcessing.ExecuteCommandsMessage.Decode() 位置 J:\coc private server\ucr\ucr\working code\UCS.PacketProcessing\ExecuteCommandsMessage.cs:行号 25
+   在 UCS.Core.MessageManager.PacketProcessing() 位置 J:\coc private server\ucr\ucr\working code\UCS.Core\MessageManager.cs:行号 56
+20160816233106	[CRS]    Processing message StartMissionMessage (236240048172, jjjjjjj)
+20160816233106	[CRS]    Processing message AskForPlayingFacebookFriendsMessage (236240048172, jjjjjjj)
+20160816233107	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233111	[CRS]    Processing message SectorCommandMessage (236240048172, jjjjjjj)
+20160816233112	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233112	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233117	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233117	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233122	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233122	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233127	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233127	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233132	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233132	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233133	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233137	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233137	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233137	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233139	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233141	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233142	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233142	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233142	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)
+20160816233143	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233144	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233145	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233146	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233146	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233146	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233147	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233147	[CRS]    Processing message SendBattleEventMessage (236240048172, jjjjjjj)
+20160816233147	[CRS]    Processing message KeepAliveMessage (236240048172, jjjjjjj)
+20160816233147	[CRS]    Processing message ClientCapabilitiesMessage (236240048172, jjjjjjj)

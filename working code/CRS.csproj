@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{4CE2C6F5-6948-4A52-99EC-7EB6EEEC0D0B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>CRS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>Library\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib">
+      <HintPath>Library\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=7.0.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=7.0.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sodium, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\libsodium-net.0.9.0\lib\Net40\Sodium.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>Library\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.HashFunction.Blake2">
+      <HintPath>Library\System.Data.HashFunction.Blake2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.HashFunction.Core">
+      <HintPath>Library\System.Data.HashFunction.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.HashFunction.Interfaces">
+      <HintPath>Library\System.Data.HashFunction.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>Library\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6">
+      <HintPath>Library\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>Library\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClashRoyaleProxy\PacketTypes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCS.Core.Threading\ConsoleThread.cs" />
+    <Compile Include="UCS.Core.Threading\InterfaceThread.cs" />
+    <Compile Include="UCS.Core.Threading\MemoryThread.cs" />
+    <Compile Include="UCS.Core.Threading\NetworkThread.cs" />
+    <Compile Include="UCS.Core\DatabaseManager.cs" />
+    <Compile Include="UCS.Core\Debugger.cs" />
+    <Compile Include="UCS.Core\HTTP.cs" />
+    <Compile Include="UCS.Core\JsonApi.cs" />
+    <Compile Include="UCS.Core\Logger.cs" />
+    <Compile Include="UCS.Core\MessageManager.cs" />
+    <Compile Include="UCS.Core\ObjectManager.cs" />
+    <Compile Include="UCS.Core\Performances.cs" />
+    <Compile Include="UCS.Core\ResourcesManager.cs" />
+    <Compile Include="UCS.Core\UCSList.cs" />
+    <Compile Include="UCS.Database\clan.cs" />
+    <Compile Include="UCS.Database\player.cs" />
+    <Compile Include="UCS.Database\ucsdbEntities.cs" />
+    <Compile Include="UCS.GameFiles\CSVColumn.cs" />
+    <Compile Include="UCS.GameFiles\CSVRow.cs" />
+    <Compile Include="UCS.GameFiles\CSVTable.cs" />
+    <Compile Include="UCS.GameFiles\Data.cs" />
+    <Compile Include="UCS.GameFiles\DataTable.cs" />
+    <Compile Include="UCS.GameFiles\DataTables.cs" />
+    <Compile Include="UCS.GameFiles\FingerPrint.cs" />
+    <Compile Include="UCS.GameFiles\GameFile.cs" />
+    <Compile Include="UCS.Helpers\CoCSharpPacketReader.cs" />
+    <Compile Include="UCS.Helpers\CommandParser.cs" />
+    <Compile Include="UCS.Helpers\GamePlayUtil.cs" />
+    <Compile Include="UCS.Helpers\Helpers.cs" />
+    <Compile Include="UCS.Logic\Achievement.cs" />
+    <Compile Include="UCS.Logic\Alliance.cs" />
+    <Compile Include="UCS.Logic\AllianceEventStreamEntry.cs" />
+    <Compile Include="UCS.Logic\AllianceKickOutStreamEntry.cs" />
+    <Compile Include="UCS.Logic\AllianceMailStreamEntry.cs" />
+    <Compile Include="UCS.Logic\AllianceMemberEntry.cs" />
+    <Compile Include="UCS.Logic\Avatar.cs" />
+    <Compile Include="UCS.Logic\AvatarStreamEntry.cs" />
+    <Compile Include="UCS.Logic\Base.cs" />
+    <Compile Include="UCS.Logic\BunkerComponent.cs" />
+    <Compile Include="UCS.Logic\Card.cs" />
+    <Compile Include="UCS.Logic\ChatStreamEntry.cs" />
+    <Compile Include="UCS.Logic\ClientAvatar.cs" />
+    <Compile Include="UCS.Logic\ClientHome.cs" />
+    <Compile Include="UCS.Logic\Component.cs" />
+    <Compile Include="UCS.Logic\ComponentFilter.cs" />
+    <Compile Include="UCS.Logic\ComponentManager.cs" />
+    <Compile Include="UCS.Logic\DataSlot.cs" />
+    <Compile Include="UCS.Logic\GameObject.cs" />
+    <Compile Include="UCS.Logic\GameObjectFilter.cs" />
+    <Compile Include="UCS.Logic\GameObjectManager.cs" />
+    <Compile Include="UCS.Logic\GlobalID.cs" />
+    <Compile Include="UCS.Logic\HitpointComponent.cs" />
+    <Compile Include="UCS.Logic\InvitationStreamEntry.cs" />
+    <Compile Include="UCS.Logic\Level.cs" />
+    <Compile Include="UCS.Logic\MovementComponent.cs" />
+    <Compile Include="UCS.Logic\NpcLevel.cs" />
+    <Compile Include="UCS.Logic\ResourceStorageComponent.cs" />
+    <Compile Include="UCS.Logic\ShareStreamEntry.cs" />
+    <Compile Include="UCS.Logic\StreamEntry.cs" />
+    <Compile Include="UCS.Logic\Timer.cs" />
+    <Compile Include="UCS.Logic\TriggerComponent.cs" />
+    <Compile Include="UCS.Logic\TroopRequestStreamEntry.cs" />
+    <Compile Include="UCS.Logic\UnitSlot.cs" />
+    <Compile Include="UCS.Network\Gateway.cs" />
+    <Compile Include="UCS.Network\PacketManager.cs" />
+    <Compile Include="UCS.Network\SocketRead.cs" />
+    <Compile Include="UCS.PacketProcessing.Commands\TvReplaySeenCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\AllianceDataMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForAllianceDataMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForAvatarStreamEntryMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForBattleReplayMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForBattleReplayStreamMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForCancelAttackMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForNewsDataMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForPlayingFacebookFriendsMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AskForTvContentMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AvailableServerCommandsMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\AvatarNameChangeOkMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\BattleReplayMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\BattleReportStreamMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\BuyCardCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\BuyChestCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\CancelAttackMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\ChangeAvatarNameMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\ChestDataMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\ChestNextCardCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\ClaimAchievementCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\ClashKeyPair.cs" />
+    <Compile Include="UCS.PacketProcessing\Client.cs" />
+    <Compile Include="UCS.PacketProcessing\ClientCapabilitiesMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\Command.cs" />
+    <Compile Include="UCS.PacketProcessing\CommandFactory.cs" />
+    <Compile Include="UCS.PacketProcessing\ExecuteCommandsMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\FriendListMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\GameOpCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\GameOpCommandFactory.cs" />
+    <Compile Include="UCS.PacketProcessing\GetDeviceTokenMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\GoHomeMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\HomeBattleReplayMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\HomeLogicStoppedMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\KeepAliveMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\KeepAliveOkMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\Key.cs" />
+    <Compile Include="UCS.PacketProcessing\LevelUpCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\LoginFailedMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\LoginMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\LoginOkMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\MatchmakeInfoMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\Message.cs" />
+    <Compile Include="UCS.PacketProcessing\MessageFactory.cs" />
+    <Compile Include="UCS.PacketProcessing\MessageReader.cs" />
+    <Compile Include="UCS.PacketProcessing\MessageWriter.cs" />
+    <Compile Include="UCS.PacketProcessing\NewsDataMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\NextCardCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\OpenChestCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\OwnHomeDataMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\RoyalTvContentMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\SearchOppenentCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\SectorCommandMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\SectorStateMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\SectorStateNpcMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\SendBattleEventMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\SessionRequest.cs" />
+    <Compile Include="UCS.PacketProcessing\SessionSuccess.cs" />
+    <Compile Include="UCS.PacketProcessing\SetDeviceTokenMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\StartMissionMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\StopHomeLogicMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\UdpConnectionInfoMessage.cs" />
+    <Compile Include="UCS.PacketProcessing\UnknownCommand.cs" />
+    <Compile Include="UCS.PacketProcessing\UnlockChestCommand.cs" />
+    <Compile Include="UCS.Properties\Resources.cs" />
+    <Compile Include="UCS.Properties\Settings.cs" />
+    <Compile Include="UCS.Utilities.ClashRoyale\Compression.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\AdditionalDataOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\BytesOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\KeyOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\MacOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\NonceOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\PersonalOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\SaltOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\SeedOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium.Exceptions\SignatureOutOfRangeException.cs" />
+    <Compile Include="UCS.Utilities.Sodium\CryptoHash.cs" />
+    <Compile Include="UCS.Utilities.Sodium\DetachedBox.cs" />
+    <Compile Include="UCS.Utilities.Sodium\DynamicInvoke.cs" />
+    <Compile Include="UCS.Utilities.Sodium\GenericHash.cs" />
+    <Compile Include="UCS.Utilities.Sodium\KeyPair.cs" />
+    <Compile Include="UCS.Utilities.Sodium\LazyInvoke.cs" />
+    <Compile Include="UCS.Utilities.Sodium\OneTimeAuth.cs" />
+    <Compile Include="UCS.Utilities.Sodium\PasswordHash.cs" />
+    <Compile Include="UCS.Utilities.Sodium\PublicKeyAuth.cs" />
+    <Compile Include="UCS.Utilities.Sodium\PublicKeyBox.cs" />
+    <Compile Include="UCS.Utilities.Sodium\ScalarMult.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SealedPublicKeyBox.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SecretAead.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SecretAeadAes.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SecretBox.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SecretKeyAuth.cs" />
+    <Compile Include="UCS.Utilities.Sodium\ShortHash.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SodiumCore.cs" />
+    <Compile Include="UCS.Utilities.Sodium\SodiumLibrary.cs" />
+    <Compile Include="UCS.Utilities.Sodium\StreamEncryption.cs" />
+    <Compile Include="UCS.Utilities.Sodium\Utilities.cs" />
+    <Compile Include="UCS\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Database.ucsdb.csdl" />
+    <EmbeddedResource Include="Database.ucsdb.msl" />
+    <EmbeddedResource Include="Database.ucsdb.sqlite.csdl" />
+    <EmbeddedResource Include="Database.ucsdb.sqlite.msl" />
+    <EmbeddedResource Include="Database.ucsdb.sqlite.ssdl" />
+    <EmbeddedResource Include="Database.ucsdb.ssdl" />
+    <EmbeddedResource Include="ucs.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="config.ucs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="filter.ucs" />
+    <None Include="Gamefiles\background_decos.csv" />
+    <None Include="Gamefiles\billing_packages.csv" />
+    <None Include="Gamefiles\client_globals.csv" />
+    <None Include="Gamefiles\credits.csv" />
+    <None Include="Gamefiles\effects.csv" />
+    <None Include="Gamefiles\fingerprint.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Gamefiles\health_bars.csv" />
+    <None Include="Gamefiles\helpshift.csv" />
+    <None Include="Gamefiles\hints.csv" />
+    <None Include="Gamefiles\music.csv" />
+    <None Include="Gamefiles\news.csv" />
+    <None Include="Gamefiles\particle_emitters.csv" />
+    <None Include="Gamefiles\sounds.csv" />
+    <None Include="Gamefiles\starting_home.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Gamefiles\texts.csv" />
+    <None Include="Gamefiles\texts_patch.csv" />
+    <None Include="packages.config" />
+    <None Include="ucsdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Gamefiles\NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Baseclass.Contrib.Nuget.Output.2.1.0\build\net40\Baseclass.Contrib.Nuget.Output.targets" Condition="Exists('packages\Baseclass.Contrib.Nuget.Output.2.1.0\build\net40\Baseclass.Contrib.Nuget.Output.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Baseclass.Contrib.Nuget.Output.2.1.0\build\net40\Baseclass.Contrib.Nuget.Output.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Baseclass.Contrib.Nuget.Output.2.1.0\build\net40\Baseclass.Contrib.Nuget.Output.targets'))" />
+  </Target>
+</Project>
